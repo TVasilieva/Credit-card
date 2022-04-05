@@ -1,8 +1,10 @@
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import App from "./App";
 
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as Element | DocumentFragment
-);
+// const root = ReactDOM.createRoot(
+//   document.getElementById("root") as Element | DocumentFragment
+// );
 
-root.render(<App />);
+// root.render(<App />);
+
+ReactDOM.render(<App />, document.getElementById("root"));

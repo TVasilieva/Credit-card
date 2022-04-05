@@ -1,0 +1,25 @@
+.input-container {
+  position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+
+.input {
+  padding: 18px 50px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+
+  &::placeholder {
+    color: rgba(23, 35, 166, 0.4);
+    font: {
+      size: 15px;
+      weight: 500;
+    }
+  }
+}

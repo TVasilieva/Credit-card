@@ -1,7 +1,8 @@
 import { FC } from "react";
+import Modal from "./components/Modal";
 
 const App: FC = () => {
-  return <div>APP</div>;
+  return <Modal>APP</Modal>;
 };
 
 export default App;

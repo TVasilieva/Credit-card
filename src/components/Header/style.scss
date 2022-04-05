@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 22px 15px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background: linear-gradient(to left, rgb(25, 25, 66), rgb(54, 66, 151));
+  color: #fff;
+
+  &__arrow {
+    margin-right: 20px !important;
+  }
+
+  font: {
+    size: 20px;
+    weight: 400;
+  }
+  letter-spacing: 1.5px;
+}
